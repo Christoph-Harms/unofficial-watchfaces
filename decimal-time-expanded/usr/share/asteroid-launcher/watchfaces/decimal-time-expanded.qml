@@ -56,6 +56,7 @@ Item {
 
         return Math.round(decimalMillis / decimalSecondsScaleFactor)
     }
+
     ConfigurationValue {
         id: timerRunning
         key: timerRunningConfigKey
